@@ -12,10 +12,22 @@ Body{
   position: relative;
 } 
 .card{
-  
   width: 30rem;
   height: 20rem;
   margin: 5rem;
+  width: 30rem;
+  height: 30rem;
+  margin: 5rem;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+  transition: 0.3s;
+  background-color: #94a8e0;
+  
+}
+
+.card:hover {
+  width: 60rem;
+  background-image: url("https://apod.nasa.gov/apod/image/2001/Hyades_Mtanous_1998.jpg");
+  
 }
 
 
@@ -23,11 +35,18 @@ Body{
 #scroll{
   display: grid;
   grid-gap: 1 rem;
-  grid-template-columns: repeat(6, calc(50% - 40px));
+  grid-template-columns: repeat(10, calc(32% - 40px));
   grid-template-rows: minmax(150rem, 1fr);
   margin-inline: 10rem;
+}
 
+.card h2 {
+  text-align: center;
+}
 
+.card p {
+  width: 25rem;
+  margin: auto;
 }
 
 
