@@ -1,11 +1,13 @@
 import React from 'react'
 
 
-export const ShowPicture =({hdurl})=> {
-    console.log(hdurl)
+export const ShowPicture =({hdurl, resetState})=> {
+    const handleClick = () => {
+        resetState()
+        
+    }
+
     return (
-        <div style="background-image"> 
-            
-        </div>
+        <img onClick={handleClick} src={hdurl} alt="picture"/>
     )
 }

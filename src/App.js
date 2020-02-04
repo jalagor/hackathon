@@ -24,6 +24,13 @@ class App extends Component {
       isClicked:true,
       hdurl: picture.hdurl})
   }
+
+  resetState = event=> {
+    this.setState({
+      isClicked : false, 
+      hdurl: []
+    })
+  }
   
   
 
@@ -35,7 +42,7 @@ class App extends Component {
       <div className="App">
        
         <NasaHeader/>
-        {this.state.isClicked===true ? <ShowPicture hdurl={this.state.hdurl}/> : <PictureScroll pictures={this.state.pictures} showImage={this.showImage}/>}
+        {this.state.isClicked===true ? <ShowPicture hdurl={this.state.hdurl} resetState={this.resetState}/> : <PictureScroll pictures={this.state.pictures} showImage={this.showImage}/>}
         
 
       
