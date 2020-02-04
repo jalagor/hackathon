@@ -1,5 +1,33 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 Body{
   font-family: 'Muli', sans-serif;
-  background-color: #BCC4DB;
+  background-color: #BCC4DB
+  /* background-image: url("https://apod.nasa.gov/apod/image/2001/Hyades_Mtanous_1998.jpg"); */
+
 }
+
+#header{
+  display: flex;
+  justify-content: center;  
+  position: relative;
+} 
+.card{
+  
+  width: 30rem;
+  height: 20rem;
+  margin: 5rem;
+}
+
+
+
+#scroll{
+  display: grid;
+  grid-gap: 1 rem;
+  grid-template-columns: repeat(6, calc(50% - 40px));
+  grid-template-rows: minmax(150rem, 1fr);
+  margin-inline: 10rem;
+
+
+}
+
+
