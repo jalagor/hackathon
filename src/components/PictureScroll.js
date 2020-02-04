@@ -10,6 +10,48 @@ export const PictureScroll = () => {
             <PictureCards/>
             <PictureCards/>
             <PictureCards/>
+            <PictureCards/>
+            <PictureCards/>
+            <PictureCards/>
+            <PictureCards/>
+            <PictureCards/>
+            <PictureCards/>
+            <PictureCards/>
+            <PictureCards/>
+            <PictureCards/>
+            <PictureCards/>
+            <PictureCards/>
+            <PictureCards/>
+            <PictureCards/>
+            <PictureCards/>
+            <PictureCards/>
+            <PictureCards/>
+            <PictureCards/>
+            <PictureCards/>
+            <PictureCards/>
+            <PictureCards/>
+            <PictureCards/>
+            <PictureCards/>
+            <PictureCards/>
+            <PictureCards/>
+            <PictureCards/>
+            <PictureCards/>
+            <PictureCards/>
+            <PictureCards/>
+            <PictureCards/>
+            <PictureCards/>
+            <PictureCards/>
+            <PictureCards/>
+            <PictureCards/>
+            <PictureCards/>
+            <PictureCards/>
+            <PictureCards/>
+            <PictureCards/>
+            <PictureCards/>
+            <PictureCards/>
+            <PictureCards/>
+            <PictureCards/>
+            <PictureCards/>
         </div>
     )
 }
