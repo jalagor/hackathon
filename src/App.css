@@ -1,33 +1,76 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 Body{
   font-family: 'Muli', sans-serif;
-  background-color: #BCC4DB
+  background-color: lightblue
   /* background-image: url("https://apod.nasa.gov/apod/image/2001/Hyades_Mtanous_1998.jpg"); */
 
 }
 
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+  /* text-align: center; */
+}
+
+
+
 #header{
-  display: flex;
-  justify-content: center;  
-  position: relative;
+  white-space: nowrap;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;  
+  width: 29 em;
+  display: center;
+  position: fixed;
+  color: #0b3d91
 } 
+
+#sec{
+  white-space: nowrap;
+  color: red;
+  position: relative;
+  text-align: right;
+  margin-left: 110px;
+  bottom: 25px;
+  font-size: 30px;
+  font-family: 'Open Sans', Verdana, Arial;
+}
+
+
+
+
 .card{
-  
   width: 30rem;
   height: 20rem;
   margin: 5rem;
+  width: 30rem;
+  height: 30rem;
+  margin: 5rem;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+  transition: 0.3s;
+  background-color: #94a8e0;
+  border-radius: 15px;
 }
-
 
 
 #scroll{
   display: grid;
   grid-gap: 1 rem;
+
   grid-template-columns: repeat(100, calc(50% - 40px));
   grid-template-rows: minmax(5rem, 1fr);
+
+
   margin-inline: 10rem;
+}
 
+.card h2 {
+  text-align: center;
+}
 
+.card p {
+  width: 25rem;
+  margin: auto;
 }
 
 

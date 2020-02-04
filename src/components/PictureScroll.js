@@ -16,6 +16,7 @@ export const PictureScroll = ({pictures, showImage}) => {
         <div id ="scroll">
             {pictureCards}
            
+
         </div>
     )
 }
