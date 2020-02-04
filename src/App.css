@@ -24,13 +24,6 @@ Body{
   
 }
 
-.card:hover {
-  width: 60rem;
-  background-image: url("https://apod.nasa.gov/apod/image/2001/Hyades_Mtanous_1998.jpg");
-  
-}
-
-
 
 #scroll{
   display: grid;
